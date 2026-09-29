@@ -197,6 +197,10 @@ The scanner uses quarterly reports, so it cannot show a bank's liquidity positio
 
 The stress test assumes how much cash, borrowing and securities are available. Public balance-sheet data alone cannot confirm that a bank could actually use those resources. The score weights and withdrawal assumptions have not been fitted to historical bank failures.
 
+## Usage of AI
+
+I used AI mainly for debugging, Excel workbook and stress-test implementations.
+
 ## What I wanted to learn
 
 - How bank accounting treats HTM and AFS securities differently.
@@ -204,10 +208,6 @@ The stress test assumes how much cash, borrowing and securities are available. P
 - Why missing data and changing interest rates matter when comparing banks.
 - Why having positive equity is not the same as having enough cash to meet withdrawals.
 - How to connect a Python analysis with an Excel model that someone else can use.
-
-A short description for a CV:
-
-> Built a Python, SQL and Excel tool to compare US banks' securities losses, uninsured deposits and deposit costs, with a deposit-withdrawal stress test and automated checks.
 
 ## License
 
