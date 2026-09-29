@@ -1,0 +1,19 @@
+# Analytical defaults, not regulatory thresholds.
+weights:
+  combined_loss_tce: 0.50
+  uninsured_concentration: 0.30
+  deposit_spread_compression_4q: 0.20
+beta_min_rate_change_bps: 25
+balance_jump_threshold: 0.30
+thresholds:
+  combined_loss_tce_amber: 0.50
+  combined_loss_tce_red: 1.00
+  uninsured_amber: 0.40
+  uninsured_red: 0.60
+  deposit_outflow_amber: 0.05
+  deposit_outflow_red: 0.10
+  cash_uninsured_amber: 0.25
+risk_tiers:
+  red: 80
+  amber: 60
+  watch: 40

@@ -1,0 +1,16 @@
+# Illustrative assumptions; not calibrated run probabilities or regulatory limits.
+name: funding_stress
+uninsured_runoff: 0.40
+insured_runoff: 0.05
+# Usable shares account for encumbrance, ring-fencing and retained liquidity only
+# through user assumptions. Public balances do not establish actual availability.
+cash_usable_fraction: 0.80
+afs_usable_fraction: 0.75
+htm_usable_fraction: 0.00
+# Additional discounts from current reported fair value, not from amortized cost.
+afs_sale_discount: 0.03
+htm_sale_discount: 0.05
+# Incremental capacity only: no automatic emergency or already-drawn funding.
+replacement_capacity_pct_assets: 0.00
+replacement_spread_bps: 200
+horizon_months: 12
